@@ -13,16 +13,28 @@
 
     <script type="text/javascript" src="js/jquery.videoBG.js"></script>
     <script type="text/javascript" src="js/scriptmodnew.js"></script>
+  
+  <!-- css -->
+  <link href="base.css" rel="stylesheet">
 
+  <!-- css for this project -->
+  <link href="project.css" rel="stylesheet">
+
+
+
+ 
  
 
 </head>
 
 <body>
+
+
+
 <header class="cabecera">
  
     <div class="banner-prin">
-         <div class="header">
+         <div class="header-jp">
             <div class="wrapper-log-nav">
         <div class="logo-prin"><img src="images/logo-cyrano.png" width="196" height="56"  alt=""/></div>
         <nav class="navegacion">
@@ -50,6 +62,9 @@
 </header>
 
 <section class="cuerpo">
+
+
+
 
         <div id="key">
 
@@ -141,7 +156,7 @@
                     <div class="text-serv">
                 	<h2>Fund Management and Funds</h2>
                     <p>The Fund Family includes different funds investing in SBs. Each fund has a specific risk profile based on the portfolio strategy: by geographical<br>diversification, by type of financial exposure (senior loans or quasi-equity) and/or by counterpart risk.</p>
-                    <a href="#">Learn More</a>
+                    <button data-toggle="modal" href="#modal-big">Learn More</button>
                     </div>
                     </div>
                     <div class="limpiar"></div>
@@ -155,7 +170,7 @@
                     <div class="text-serv">
                     <h2>Deals Generation</h2>
                 <p>THE INVESTEE ASSUMES THE COST<br>OF SERVICES EQUIVALENT TO 50bps<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <a href="#">Learn More</a>
+                     <button data-toggle="modal" href="#modal-big2">Learn More</button>
                     </div>
                     </div>
                        <div class="cont-avatar"><div class="avatar"><img src="images/imagenprueba2.jpg"></div></div>
@@ -168,7 +183,7 @@
                     <div class="text-serv">
                    <h2>Advisory Consultancies</h2>
             <p>Cyrano provides consultancy services<br>based on its deep knowledge of emerging<br>markets, finance for low-income people,<br>and risk assessments.<br>Cyrano performs Consultancies and<br>Technical Services to a large scope of<br>entities that require its interventions in<br>social projects with financial components.</p>
-                    <a href="#">Learn More</a>
+                     <button data-toggle="modal" href="#modal-big3">Learn More</button>
                     </div>
                     </div>
                     <div class="limpiar"></div>
@@ -179,85 +194,205 @@
     
       </div>
     
+ <!-- MODALS-->
+
+<!--MODAL1-->
+ <div aria-hidden="true" class="modal fade" id="modal-big" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-heading">
+          <a class="modal-close" data-dismiss="modal">&times;</a>
+          <h2 class="modal-title">Modal Title</h2>
+        </div>
+        <div class="modal-inner">
+          <p><strong>Overflowing text to show scroll behaviour</strong></p>
+          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+          <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+          <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+          <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        </div>
+        <div class="modal-footer">
+          <p class="text-right"><button class="btn btn-flat btn-alt" data-dismiss="modal" type="button">Close</button><button class="btn btn-flat btn-alt" data-dismiss="modal" type="button">OK</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!--Modal2-->
+
+<div aria-hidden="true" class="modal fade" id="modal-big2" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-heading">
+          <a class="modal-close" data-dismiss="modal">&times;</a>
+          <h2 class="modal-title">Modal Title</h2>
+        </div>
+        <div class="modal-inner">
+          <p><strong>Overflowing text to show scroll behaviour</strong></p>
+          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+          <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+          <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+          <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        </div>
+        <div class="modal-footer">
+          <p class="text-right"><button class="btn btn-flat btn-alt" data-dismiss="modal" type="button">Close</button><button class="btn btn-flat btn-alt" data-dismiss="modal" type="button">OK</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Modal3-->
+
+  <div aria-hidden="true" class="modal fade" id="modal-big3" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-heading">
+          <a class="modal-close" data-dismiss="modal">&times;</a>
+          <h2 class="modal-title">Modal Title</h2>
+        </div>
+        <div class="modal-inner">
+          <p><strong>Overflowing text to show scroll behaviour</strong></p>
+          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+          <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+          <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+          <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        </div>
+        <div class="modal-footer">
+          <p class="text-right"><button class="btn btn-flat btn-alt" data-dismiss="modal" type="button">Close</button><button class="btn btn-flat btn-alt" data-dismiss="modal" type="button">OK</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+    
+
+    <!-- FINMODALS-->
+
     
     </div>
     
-    
+
     
 	
     <div id="human">
         <div class="human-wrapper">
         	<h1>Human Capital</h1>
-            <div class="columna-human1 ">
-            	<div class="flot-nombre wow fadeInUp">
-                <h1>Fernando<br/> <span class="apellido">Lucano Urioste</span></h1>
-                <p>President and Founder, <br>based in Paris.</p>
-                </div>
-                <div class="flot-content wow fadeInUp">
-                <p>Over 25 years of experience in structuring and monitoring debt and equity investments in MFIs, banks, financial companies and venture 		                 capital funds.</p>
-                </div>
-                
-                   <div class="flot-nombre wow fadeInUp">
-                <h1>Edmond<br/> <span class="apellido">de Capele</span></h1>
-              <p>Senior Financial Advisor, <br>based in Paris.</p>
-                </div>
-                <div class="flot-content wow fadeInUp">
-                <p>CFO for more than 30 years in a variety of leading French chemical<br>companies managing more than 300 affiliates worldwide. Over 18years of experience in microfinance with Cyrano, CRS (USA) and SIDI<br>(France)..</p>
-                </div>
-                
-                <div class="flot-nombre wow fadeInUp">
-                <h1>Magally<br/> <span class="apellido">Fouscas</span></h1>
-               <p>Secretary of Funds, Governance and Reporting . CEO of Cyrano Lima, based in Lima.</p>
-                </div>
-                <div class="flot-content wow fadeInUp">
-                <p>Over 13 years of experience in microfinance. In charge of the<br>preparation of the legal documents of the investment funds,<br>coordinating and reporting to investors.</p>
-                </div>
-                
-          
-                  <div class="flot-nombre wow fadeInUp">
-                <h1>Silvia<br/> <span class="apellido">Ramos</span></h1>
-              <p>Risk Manager, based in Lima.</p>
-                </div>
-                <div class="flot-content wow fadeInUp">
-              <p>Former team leader in banking audit of KPMG. Over 5 years of<br>experience in the microfinance sector. Involved in the risk assessment and monitoring of MFIs worldwide.</p>
-                </div>
-                
-                
-                <div class="limpiar"></div>
+
+          <div class="cont-human">
+            <div class="fila-sep">
+           <div class="cont-persona">
+            <div class="av-persona"><img src="images/fernando-lucano.png"></div>
+            <div class="text-persona">
+             <h1>Fernando<br/> <span class="apellido">Lucano Urioste</span></h1>
+              <p style="font-weight:700;">President and Founder, <br>based in Paris.</p>
+              <p>Over 25 years of experience in structuring and monitoring debt and equity investments in MFIs, banks, financial companies and venture                     capital funds.</p>
             </div>
-            <div class="columna-human2">
-            
-            	<div class="flot-nombre wow fadeInUp">
-                <h1>Bibiana<br/> <span class="apellido">Vásquez</span></h1>
-               <p>Development Project USA based in Houston.</p>
-                </div>
-                <div class="flot-content wow fadeInUp">
-               <p>Over 17 years of experience in the microfinance sector. Involved in<br>all operating activities of Cyrano USA and in the risk assessment of<br>microfinance institutions worldwide. Specialist of TA programs.</p>
-                </div>
-                
-                <div class="flot-nombre wow fadeInUp">
-                <h1>Ernest<br/> <span class="apellido">Yerekuu</span></h1>
-               <p>Fund Manager / CEO of Cyrano Ghana, based in Accra.</p>
-                </div>
-                <div class="flot-content wow fadeInUp">
-             <p>Over 10 years of experience in microfinance in Ghana. Former CFO of a leading microfinance entity.</p>
-                </div>
-                
-                
-                 <div class="flot-nombre wow fadeInUp">
-                <h1>Ramilya<br/> <span class="apellido">Abdrashitova</span></h1>
-              <p>Investment Officer Central Asia, based in Bishkek.</p>
-                </div>
-                <div class="flot-content wow fadeInUp">
-            <p>Former Finance Manager of Investment Funds and Direct Loans to SMEs.</p>
-                </div>
-                
-                
-                <div class="limpiar"></div>
-            
-            
+
+           </div>
+
+
+            <div class="cont-persona">
+            <div class="av-persona"><img src="images/fernando-lucano.png"></div>
+            <div class="text-persona">
+           <h1>Edmond<br/> <span class="apellido">de Capele</span></h1>
+           <p style="font-weight:700;">Senior Financial Advisor, <br>based in Paris.</p>
+             <p>CFO for more than 30 years in a variety of leading French chemical<br>companies managing more than 300 affiliates worldwide. Over 18years of experience in microfinance with Cyrano, CRS (USA) and SIDI<br>(France)..</p>
             </div>
+
+           </div>
+
+
+            <div class="cont-persona">
+            <div class="av-persona"><img src="images/magally-fouscas.png"></div>
+            <div class="text-persona">
+             <h1>Magally<br/> <span class="apellido">Fouscas</span></h1>
+              <p style="font-weight:700;">Secretary of Funds, Governance and Reporting . CEO of Cyrano Lima, based in Lima.</p>
+               <p>Over 13 years of experience in microfinance. In charge of the<br>preparation of the legal documents of the investment funds,<br>coordinating and reporting to investors.</p>
+            </div>
+
+           </div>
+
+
+            <div class="cont-persona">
+            <div class="av-persona"><img src="images/fernando-lucano.png"></div>
+            <div class="text-persona">
+            <h1>Silvia<br/> <span class="apellido">Ramos</span></h1>
+              <p style="font-weight:700;">Risk Manager, based in Lima.</p>
+             <p>Former team leader in banking audit of KPMG. Over 5 years of<br>experience in the microfinance sector. Involved in the risk assessment and monitoring of MFIs worldwide.</p>
+            </div>
+
+           </div>
             <div class="limpiar"></div>
+
+           </div>
+
+             <div class="fila-sep">
+
+
+            <div class="cont-persona">
+            <div class="av-persona"><img src="images/fernando-lucano.png"></div>
+            <div class="text-persona">
+              <h1>Bibiana<br/> <span class="apellido">Vásquez</span></h1>
+               <p style="font-weight:700;">Development Project USA based in Houston.</p>
+             <p>Over 17 years of experience in the microfinance sector. Involved in<br>all operating activities of Cyrano USA and in the risk assessment of<br>microfinance institutions worldwide. Specialist of TA programs.</p>
+            </div>
+
+           </div>
+
+
+            <div class="cont-persona">
+            <div class="av-persona"><img src="images/fernando-lucano.png"></div>
+            <div class="text-persona">
+               <h1>Ernest<br/> <span class="apellido">Yerekuu</span></h1>
+               <p style="font-weight:700;">Fund Manager / CEO of Cyrano Ghana, based in Accra.</p>
+                <p>Over 10 years of experience in microfinance in Ghana. Former CFO of a leading microfinance entity.</p>
+            </div>
+
+           </div>
+
+
+            <div class="cont-persona">
+            <div class="av-persona"><img src="images/fernando-lucano.png"></div>
+            <div class="text-persona">
+           <h1>Ramilya<br/> <span class="apellido">Abdrashitova</span></h1>
+              <p style="font-weight:700;">Investment Officer Central Asia, based in Bishkek.</p>
+              <p>Former Finance Manager of Investment Funds and Direct Loans to SMEs.</p>
+            </div>
+
+           </div>
+            <div class="limpiar"></div>
+
+            </div>
+
+
+
+           
+          </div>
+
+            
+         
+       
         	
       
         
@@ -316,6 +451,9 @@
 			callbackAfter: function ( toggle, anchor ) {}
 		});
 	</script>
+
+
+
 
 
  <script src="wow.min.js"></script>
@@ -385,6 +523,14 @@
 	
 	var taggd = $('.taggd').taggd( options, data );
 </script>
+
+
+<script src="js/base.min.js"></script>
+
+  <!-- js for this project -->
+  <script src="js/project.min.js"></script>
+
+
 
 </body>
 </html>

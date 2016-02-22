@@ -66,7 +66,7 @@ ul, li{
 
 .logo-prin{
 	float:left;
-	padding: 15px 0 0 10%;
+	padding: 10px 0 0 10%;
 	
 }
 
@@ -74,6 +74,7 @@ ul, li{
 .navegacion{
 	float:left;
 	margin-left:10%;
+	
 	
 }
 
@@ -102,7 +103,7 @@ ul, li{
 /*cabecera fix*/
 
 
-.header {
+.header-jp {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     position: fixed;
     top: 0;
@@ -120,13 +121,13 @@ ul, li{
     line-height:160px;
 
 }
-.header.shrink {
+.header-jp.shrink {
 	border-bottom: 0px solid rgba(255, 255, 255, 0.15);
     height: 80px;
     line-height:80px;
     background: #292c47;
 }
-.header h1
+.header-jp h1
 {
     font-size:15px;
     font-weight:normal;
@@ -135,12 +136,20 @@ ul, li{
     transition: all 0.3s;
 }
 
-.header.shrink h1
+.header-jp.shrink h1
 {
     font-size:10px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+}
+
+
+.header-jp.shrink .navegacion{
+	float:left;
+	margin-left:10%;
+	padding-top: 10px;
+	
 }
 
 /**/
@@ -358,8 +367,8 @@ padding:30px 0 0 25px;
 
 
 #servicios{
-	background-color: #f4f4f4;
-	padding:0 0 5% 0;
+	
+	padding:0 0 0% 0;
 }
 
 
@@ -394,7 +403,7 @@ margin-bottom:25px;
 	
 }
 
-.modulo-serv a{
+.modulo-serv button{
 	 color: #f5812b;
 font-size: 15px;
 font-weight: 500;
@@ -409,9 +418,10 @@ text-transform: uppercase;
               transition: all 0.5s ease;
      background-color:rgba(245,129,43,0.0);
     border: 1px solid rgba(245,129,43,1);
+    cursor: pointer;
 }
 
-.modulo-serv a:hover{
+.modulo-serv button:hover{
 	   background-color:rgba(245,129,43,1);
       border: 1px solid rgba(245,129,43,0);
 	  color:#FFF;
@@ -436,8 +446,21 @@ text-transform: uppercase;
 }
 
 .text-serv{
-	padding: 20% 20% 10% 15%; 
+	padding: 16% 20% 9% 15%; 
 }
+
+
+/* Estilos Modals*/
+
+.cont-modal-bg{
+	padding: 50px 35px;
+	background: #fff;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
+}
+
 /*key*/
 
 #key{
@@ -493,6 +516,7 @@ font-weight: 500;
 line-height: 35px;
 text-align:center;
 margin-bottom:15px;
+margin-top: 0;
 }
 
 .cont-flot p{
@@ -509,7 +533,7 @@ text-align:center;
 
 #human{
 	background-color: #f4f4f4;
-	padding:80px 0;
+	padding:12% 0;
 }
 
 .human-wrapper{
@@ -519,90 +543,62 @@ text-align:center;
 
 .human-wrapper h1{
 	color: #f5812b;
-font-size: 45px;
+font-size: 55px;
 font-weight: 300;
 line-height: 35px;
-margin-bottom:80px;
+margin-bottom:0px;
 text-align:center;
 }
 
-.columna-human1{
-	float:left;
-	width:50%;
 
-	
+.cont-human{
+	margin: 80px 0;
 }
-
-.columna-human2{
-	float:left;
-	width:50%;
-	
-	
-}
-
-.flot-nombre{
-	float:left;
-	margin-bottom:10px;
-	background:url(images/flechablanca.png) right no-repeat #003e56; 
-	background-position:101% 50%;
-	padding:40px 35px;
-	width:37%;
-	height:200px;
-	  -webkit-transition: all 0.5s ease;
-         -moz-transition: all 0.5s ease;
-           -o-transition: all 0.5s ease;
-          -ms-transition: all 0.5s ease;
-              transition: all 0.5s ease;
-			  
+.cont-persona{
+	float: left;
+	width: 22%;
+	margin: 0 15px;
 }
 
 
-.flot-nombre:hover{
-
-	background:url(images/flechablanca.png) right no-repeat #f5812b;
-	background-position:100% 50%;
-}
-
-.flot-content{
-	float:left;
-	margin-bottom:10px;
-	background-color: white;
-	padding:40px 35px;
-	width:37%;
-	height:200px;
-	
-	
-}
-
-
-
-.flot-content p{
-	color: #9d9a9a;
-font-size: 15px;
-font-weight: 400;
-line-height: 20px;
-padding-top:25px;
-border-top:1px solid #CCC;
-}
-
-.flot-nombre h1{
-	color: white;
-font-weight: 500;
-line-height: 35px;
-font-size: 40px;
-text-align:left;
-margin-bottom:15px
-}
-
-.flot-nombre  p{
-	color: white;
-font-size: 15px;
-font-weight: 400;
-line-height: 20px;
+.cont-persona h1{
+	font-size: 40px;
+	font-weight: 700;
+	text-align: left;
+	line-height: 35px;
 }
 
 .apellido{
-	font-size: 30px;
+	font-size: 25px;
+	font-weight: 300;
+	text-align: left;
+
+}
+
+.av-persona{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #CCC;
+}
+
+
+.av-persona img{
+	width: 100%;
+	height: auto;
+}
+
+.cont-persona p{
+	color: #9d9a9a;
+font-size: 15px;
+font-weight: 500;
+line-height: 25px;
+margin-bottom:25px;
+
+
+}
+
+.fila-sep{
+	margin: 7% 0;
 }
 
 
