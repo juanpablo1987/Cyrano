@@ -533,7 +533,7 @@ text-align:center;
 
 #human{
 	background-color: #f4f4f4;
-	padding:12% 0;
+	padding:12% 0 5% 0;
 }
 
 .human-wrapper{
@@ -562,17 +562,16 @@ text-align:center;
 
 
 .cont-persona h1{
-	font-size: 40px;
-	font-weight: 700;
-	text-align: left;
-	line-height: 35px;
-}
-
-.apellido{
 	font-size: 25px;
 	font-weight: 300;
 	text-align: left;
+	line-height: 35px;
+	color: #292c47;
+}
 
+.cargo{
+	color: #f5812b !important;
+	text-transform: uppercase;
 }
 
 .av-persona{
@@ -601,6 +600,19 @@ margin-bottom:25px;
 	margin: 7% 0;
 }
 
+
+.av-persona img.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+, IE10 */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+    -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+}
+
+.av-persona img.grayscale:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
 
 /*reference*/
 
