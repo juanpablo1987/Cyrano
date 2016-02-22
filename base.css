@@ -4036,9 +4036,7 @@ body.el-loading {
   float: none !important;
 }
 
-.pull-right {
-  float: right;
-}
+
 
 .text-break {
   -webkit-hyphens: auto;
@@ -7490,9 +7488,9 @@ input[type="checkbox"]:checked + .switch-toggle-yellow:active:after, input[type=
 }
 
 .tab-nav {
-  box-shadow: 0 1px 0 #e0e0e0;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  
+  
+
   position: relative;
 }
 .tab-nav .nav {

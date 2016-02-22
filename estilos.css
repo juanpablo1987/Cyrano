@@ -552,7 +552,7 @@ text-align:center;
 
 
 .cont-human{
-	margin: 80px 0;
+	margin: 80px 0 0 0;
 }
 .cont-persona{
 	float: left;
@@ -597,7 +597,7 @@ margin-bottom:25px;
 }
 
 .fila-sep{
-	margin: 7% 0;
+	margin: 4% 0;
 }
 
 
@@ -617,54 +617,55 @@ margin-bottom:25px;
 /*reference*/
 
 #reference{
-	background:url(images/imagen-reference.png) no-repeat;
-	background-size:cover;
+	background: #003e56;
+
 	
 	
 }
 
-.reference-wrapper{
-	max-width:1100px;
-	margin:0 auto;
-	padding:80px 0;
-	
-	
+.imagen-reference-carrousel{
+	float: left;
+	width: 50%;
 }
 
-.reference-wrapper h1{
-	color: white;
-font-size: 45px;
-font-weight: 300;
-line-height: 35px;
-text-align:center;
-margin-bottom:80px;
+.imagen-reference-carrousel img{
+	display: block;
+	width: 100%;
 }
 
-.flotante-reference{
-	float:left;
-	width:46%;
-	
+.cont-text-ref{
+
+	float: left;
+	width: 39%;
+	padding: 2% 5% 5% 5%;
+
 }
 
-.flotante-reference img{
-	display:block;
-	margin:25px auto;
-	
+.cont-text-ref nav{
+	margin-bottom: 22px;
 }
 
-.flotante-reference h2{
-	color: white;
-font-size: 25px;
-font-weight: 500;
-line-height: 35px;
-margin-bottom:25px;
+
+.cont-text-ref h2{
+	font-size: 30px;
+	color: #fff;
+	line-height: 45px;
+	font-weight: 400;
+	font-style: italic;
+
+
+}
+#first-tab{
+	padding-top: 40px;
+
+}
+#second-tab ul{
+	list-style: none;
 }
 
-.flotante-reference ul{
-	list-style:none;
-}
 
-.flotante-reference ul li{
+
+#second-tab ul li{
 	color: white;
 font-size: 15px;
 font-weight: 500;
@@ -674,12 +675,9 @@ background:url(images/circuloblanco.png) no-repeat;
 background-position:0 9px;
 }
 
-.flotante-reference-cuadro{
-	float:left;
-	width:50%;
-	margin-left:25px;
-	
-}
+
+
+
 
 /*piepagina*/
 
