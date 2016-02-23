@@ -6642,7 +6642,7 @@ input[type="checkbox"]:checked + .switch-toggle-yellow:active:after, input[type=
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 40;
+  z-index: 10000;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
@@ -6661,18 +6661,18 @@ input[type="checkbox"]:checked + .switch-toggle-yellow:active:after, input[type=
   right: 0;
   bottom: 0;
   left: 0;
-  -webkit-transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-          transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  z-index: 39;
+  -webkit-transition: opacity 0.3s cubic-bezier(0.4, 0, 0.5, 1);
+          transition: opacity 0.3s cubic-bezier(0.4, 0, 0.5, 1);
+  z-index: 9999;
 }
 .modal-backdrop.fade.in {
-  opacity: 0.5;
+  opacity: 0.9;
 }
 .menu ~ .modal-backdrop {
   z-index: 30;
 }
 .menu ~ .modal-backdrop.in {
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 .modal-close {
@@ -6695,14 +6695,14 @@ input[type="checkbox"]:checked + .switch-toggle-yellow:active:after, input[type=
   background-clip: padding-box;
   background-color: #ffffff;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 0;
   box-shadow: 0 1px 30px rgba(0, 0, 0, 0.5);
   outline: 0;
   position: relative;
 }
 
 .modal-dialog {
-  margin: 10% 16px;
+  margin: 0 16px;
   position: relative;
 }
 .modal-dialog.modal-full {
