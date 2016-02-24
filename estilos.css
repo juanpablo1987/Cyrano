@@ -472,11 +472,19 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
 	margin-bottom: 25px;
 	border-bottom: 5px solid #f4f4f4;
 	padding-bottom: 25px;
+	margin-top: 45px;
 }
 
 .modal-inner h2{
 	color: #f5812b;
 	margin: 35px 0 10px 0;
+}
+
+
+.modal-inner h3{
+	color: #333;
+	font-size: 20px;
+	margin: 0 0 10px 0;
 }
 
 .modal-inner p{
@@ -512,6 +520,14 @@ padding: 5px 10px 10px 50px;
 .modal-inner ul ul{
 	list-style: none;
 	padding: 5px 0;
+}
+
+.example{
+	background: #003d56;
+	padding: 10px 15px;
+	color: #fff !important;
+	margin: 40px 0 0 0;
+	display: inline-block;
 }
 
 .wrap-imagen-full{
@@ -593,6 +609,33 @@ padding: 5px 10px 10px 50px;
 	margin: 0 25px;
 	width: 25%;
 }
+
+/*modal 2*/
+
+.ico-deal1{
+	padding: 0 0 0 15%;
+	background: url(images/icons-deals-02.png) no-repeat;
+	background-position:20px 30px; 
+}
+
+.ico-deal2{
+	padding: 0 0 0 15%;
+	background: url(images/icons-deals-04.png) no-repeat;
+	background-position:20px 30px; 
+}
+
+.ico-deal3{
+	padding: 0 0 0 15%;
+	background: url(images/icons-deals-03.png) no-repeat;
+	background-position:20px 30px; 
+}
+
+.ico-deal4{
+	padding: 0 0 0 15%;
+	background: url(images/icons-deals-05.png) no-repeat;
+	background-position:20px 30px; 
+}
+
 /*key*/
 
 #key{
