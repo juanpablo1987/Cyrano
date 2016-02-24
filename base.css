@@ -6764,18 +6764,17 @@ input[type="checkbox"]:checked + .switch-toggle-yellow:active:after, input[type=
 }
 
 .modal-heading {
-  margin-top: 24px;
-  margin-bottom: 24px;
-  padding-right: 32px;
-  padding-left: 32px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 5%;
   position: relative;
+  background: #f4f4f4;
 }
 
 .modal-inner {
-  margin-top: 24px;
-  margin-bottom: 24px;
-  padding-right: 32px;
-  padding-left: 32px;
+  max-width: 50%;
+  margin: 50px auto;
 }
 
 .modal-open {
@@ -6783,7 +6782,7 @@ input[type="checkbox"]:checked + .switch-toggle-yellow:active:after, input[type=
 }
 
 .modal-title {
-  font-size: 20px;
+  font-size: 25px;
   line-height: 28px;
   margin-top: 0;
   margin-right: 28px;

@@ -469,13 +469,14 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
 
 .modal-inner h1{
 	color: #333;
-	margin-bottom: 15px;
-	border-top: 5px solid #f4f4f4;
-	padding-top: 25px;
+	margin-bottom: 25px;
+	border-bottom: 5px solid #f4f4f4;
+	padding-bottom: 25px;
 }
 
 .modal-inner h2{
 	color: #f5812b;
+	margin: 35px 0 10px 0;
 }
 
 .modal-inner p{
@@ -514,7 +515,7 @@ padding: 5px 10px 10px 50px;
 }
 
 .wrap-imagen-full{
-	max-width: 70%;
+	max-width: 100%;
 	margin: 70px auto;
 }
 
@@ -523,33 +524,28 @@ padding: 5px 10px 10px 50px;
 	height: auto;
 }
 
+.grafico2a, .grafico2b, .grafico2c {
+	margin: 35px 0;
+}
+
 .grafico2a img, .grafico2b img {
 	width: 100%;
 	height: auto;
 }
 
 .grafico2c img{
-	width: 80%;
+	width: 100%;
 	height: auto;
+	margin: 50px 0;
 
 }
 
-.grafico2a {
-	display: inline-block;
-	width: 48%;
-	margin-right: 50px;
-}
-
-.grafico2b {
-	display: inline-block;
-	width: 40%;
-}
 
 
-.grafico2c{
-	width: 70%;
-	margin: 70px auto;
-}
+
+
+
+
 
 
 .columna-izq-mod{
@@ -569,11 +565,11 @@ padding: 5px 10px 10px 50px;
 }
 
 .cont-credit-strategy{
-	margin: 25px 0;
+	margin: 45px 0;
 }
 
 .wrap-grafico3a{
-	width: 47%;
+	width: 100%;
 	margin: 50px auto;
 }
 
