@@ -17,33 +17,34 @@ body{
 	margin:0;
 	padding:0;
 	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
 	
 }
 
 
 h1{
-	font-size: 45px;
+	font-size: 4em;
 font-weight: 300;
-line-height: 50px;
+line-height: 1.5em;
 }
 
 h2{
-	font-size: 25px;
+	font-size: 1.5em;
 font-weight: 500;
-line-height: 35px;
+line-height: 1.4em;
 }
 
 h3{
-	font-size: 15px;
+	font-size: 1.5em;
 font-weight: 500;
-line-height: 20px;
+line-height: 1.1em;
 }
 
 
 p{
-	font-size: 15px;
+	font-size: 1em;
 font-weight: 400;
-line-height: 20px;
+line-height: 1.8em;
 }
 
 ul, li{
@@ -51,10 +52,20 @@ ul, li{
 	padding:0;
 }
 
+li{
+	font-size: 1em;
+	
+}
+
 *{
 	margin:0;
 	padding:0;
 	
+}
+
+a{
+	font-size: 1em;
+	line-height: 1.5em;
 }
 
 
@@ -64,11 +75,7 @@ ul, li{
 
 
 
-.logo-prin{
-	float:left;
-	padding: 10px 0 0 10%;
-	
-}
+
 
 
 .navegacion{
@@ -76,30 +83,14 @@ ul, li{
 	margin-left:10%;
 	
 	
-}
-
-
-.navegacion ul{
-	list-style:none;
 	
 }
 
-.navegacion ul li{
-	
-	float:left;
-	padding:0px 40px 0px 40px;
-	
-	 -webkit-transition: all 0.5s ease;
-         -moz-transition: all 0.5s ease;
-           -o-transition: all 0.5s ease;
-          -ms-transition: all 0.5s ease;
-              transition: all 0.5s ease;
-	
-	
 
-	
-	
-}
+
+
+
+
 /*cabecera fix*/
 
 
@@ -110,62 +101,85 @@ ul, li{
     left: 0;
     width: 100%;
     
+   
+    
     color:#fff;
     z-index: 1000;
     height: 150px;
     overflow: hidden;
-    -webkit-transition: height 0.3s;
-    -moz-transition: height 0.3s;
-    transition: height 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
     text-align:center;
-    line-height:160px;
+    
 
 }
+
+.header-jp img{
+	float:left;
+	padding: 2% 0 0 10%;
+
+}
+
+.header-jp ul{
+	list-style:none;
+	padding: 8% 0 0 0;
+
+}
+
+.header-jp ul li{
+	float:left;
+	padding:0px 40px 0px 40px;
+	
+	 -webkit-transition: all 0.5s ease;
+         -moz-transition: all 0.5s ease;
+           -o-transition: all 0.5s ease;
+          -ms-transition: all 0.5s ease;
+              transition: all 0.5s ease;
+
+}
+
+.header-jp ul li a{
+	color: rgba(255, 255, 255, 0.75);
+
+font-weight: 400;
+
+text-transform: uppercase;
+text-decoration:none;
+
+}
+
+
+
+
+
+
 .header-jp.shrink {
 	border-bottom: 0px solid rgba(255, 255, 255, 0.15);
     height: 80px;
-    line-height:80px;
+  
     background: #292c47;
 }
-.header-jp h1
-{
-    font-size:15px;
-    font-weight:normal;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+
+
+.header-jp.shrink ul{
+
+	padding: 4% 0 0 0;
+
 }
 
-.header-jp.shrink h1
-{
-    font-size:10px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+.header-jp.shrink img{
+	padding: 1% 0 0 10%;
+
+
 }
 
 
-.header-jp.shrink .navegacion{
-	float:left;
-	margin-left:10%;
-	padding-top: 10px;
-	
-}
 
 /**/
 
-.navegacion ul li:hover{
-	
-}
 
-.navegacion ul li a{
-	color: rgba(255, 255, 255, 0.75);
-font-size: 15px;
-font-weight: 400;
-line-height: 40px;
-text-transform: uppercase;
-text-decoration:none;
-}
+
 
 
 .banner-prin{
@@ -183,7 +197,7 @@ text-decoration:none;
 	
 	min-height:150px;
 	margin: 0 auto;
-	width:100%;
+	
 	max-width:1200px;
 	position:relative;
 	padding:13%  25px 0 25px; 
@@ -200,17 +214,17 @@ text-decoration:none;
 
 .titulo-banner h1{
 	color: white;
-	font-size: 45px;
-	line-height: 55px;
+	font-size: 3em;
+	line-height: 1.5em;
 	font-weight: 700;
 	margin-bottom: 25px;
 	
 }
 
 .titulo-banner p{
-	font-size: 25px;
+	font-size: 1.8em;
 font-weight: 400;
-line-height: 35px;
+line-height: 1.5em;
 color: white;
 
 	
@@ -218,12 +232,10 @@ color: white;
 
 .titulo-banner a{
 		display: block;
-	width: 70%;
+	
 	
 	 color: #f5812b;
-font-size: 15px;
 font-weight: 500;
-line-height: 25px;
 text-transform: uppercase;
     padding:15px 10px;
     text-decoration:none;
@@ -301,7 +313,7 @@ padding:30px 0 0 25px;
 
 
 #intro{
-	background-color: #003e56;
+	background-color: #0D47A1;
 
 }
 
@@ -312,15 +324,15 @@ padding:30px 0 0 25px;
 }
 
 .spacer{
-	padding-top: 50%;
+	padding-top: 58%;
 }
 
 
 
 .intro-text h1{
-	font-size: 55px;
+	
 	font-weight: 300;
-	line-height: 57px;
+	
 	text-align: center;
 
 }
@@ -342,8 +354,8 @@ padding:30px 0 0 25px;
 
 .resalte{
 	color: white;
-	font-size: 30px;
-	line-height: 45px;
+	font-size: 1.8em;
+	line-height: 1.7em;
 	font-weight: 300;
 	margin-bottom: 25px;
 	float: left;
@@ -376,9 +388,7 @@ padding:30px 0 0 25px;
 
 .servicios-wrapper h1{
 	color: #f5812b;
-font-size: 55px;
 font-weight: 300;
-line-height: 35px;
 text-align:center;
 margin-bottom:50px;
 	
@@ -388,26 +398,25 @@ margin-bottom:50px;
 
 .modulo-serv h2{
 	color: #333;
-font-size: 30px;
+
 font-weight: 500;
-line-height: 35px;
+
 margin-bottom: 25px;
 }
 
 .modulo-serv p{
 	color: #9d9a9a;
-font-size: 15px;
+
 font-weight: 500;
-line-height: 25px;
+
 margin-bottom:25px;
 	
 }
 
 .modulo-serv button{
 	 color: #f5812b;
-font-size: 15px;
+font-size: 1em;
 font-weight: 500;
-line-height: 25px;
 text-transform: uppercase;
     padding:8px 10px;
     text-decoration:none;
@@ -446,7 +455,7 @@ text-transform: uppercase;
 }
 
 .text-serv{
-	padding: 16% 20% 9% 15%; 
+	padding: 16% 20% 6.5% 15%; 
 }
 
 
@@ -483,15 +492,12 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
 
 .modal-inner h3{
 	color: #333;
-	font-size: 20px;
 	margin: 0 0 10px 0;
 }
 
 .modal-inner p{
 	color: #9d9a9a;
-font-size: 15px;
 font-weight: 500;
-line-height: 25px;
 margin-bottom:25px;
 
 }
@@ -502,7 +508,6 @@ margin-bottom:25px;
 
 .modal-inner ul li{
 		color: #9d9a9a;
-font-size: 15px;
 font-weight: 500;
 padding: 5px 10px 10px 20px ;	
 background: url(images/vignet.png) no-repeat;
@@ -651,9 +656,7 @@ padding: 5px 10px 10px 50px;
 
 .key-wrapper h1{
 	color: #f5812b;
-font-size: 55px;
 font-weight: 300;
-line-height: 35px;
 margin-bottom:100px;
 text-align:center;
 }
@@ -686,9 +689,7 @@ text-align:center;
 
 .cont-flot h2{
 	color: #333;
-font-size: 20px;
 font-weight: 500;
-line-height: 35px;
 text-align:center;
 margin-bottom:15px;
 margin-top: 0;
@@ -696,9 +697,7 @@ margin-top: 0;
 
 .cont-flot p{
 	color: #9d9a9a;
-font-size: 15px;
 font-weight: 500;
-line-height: 20px;
 text-align:center;
 	
 }
@@ -718,9 +717,9 @@ text-align:center;
 
 .human-wrapper h1{
 	color: #f5812b;
-font-size: 55px;
+
 font-weight: 300;
-line-height: 35px;
+
 margin-bottom:0px;
 text-align:center;
 }
@@ -736,11 +735,9 @@ text-align:center;
 }
 
 
-.cont-persona h1{
-	font-size: 25px;
+.cont-persona h2{
 	font-weight: 300;
 	text-align: left;
-	line-height: 35px;
 	color: #292c47;
 }
 
@@ -815,8 +812,8 @@ margin-bottom:25px;
 }
 
 #reference{
-	background: #003e56;
-
+	
+background: #003e56;
 	
 	
 }
@@ -833,6 +830,7 @@ margin-bottom:25px;
 
 .cont-text-ref{
 
+
 	float: left;
 	width: 39%;
 	padding: 2% 5% 5% 5%;
@@ -845,9 +843,9 @@ margin-bottom:25px;
 
 
 .cont-text-ref h2{
-	font-size: 30px;
+	font-size: 2em;
 	color: #fff;
-	line-height: 45px;
+	line-height: 1.7em;
 	font-weight: 400;
 	font-style: italic;
 
@@ -865,9 +863,9 @@ margin-bottom:25px;
 
 #second-tab ul li{
 	color: white;
-font-size: 15px;
+
 font-weight: 500;
-line-height: 25px;
+
 padding:0 0 9px 20px;
 background:url(images/circuloblanco.png) no-repeat;
 background-position:0 9px;
@@ -895,3 +893,276 @@ box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.3);
 	margin:0 25px;
 	width:3%;	
 }
+
+@media (max-width: 1280px){
+
+	.cont-text-ref h2{
+		font-size: 1.7em;
+
+	}
+
+	.columna-flot-mod{
+		width: 100%;
+	}
+
+	.ico-deal1, .ico-deal2, .ico-deal3, .ico-deal4{
+		padding: 0 0 0 22%;
+	}
+
+}
+
+
+@media (max-width: 1024px){
+
+	h1{
+		font-size: 3.5em;
+	}
+
+	.header-jp ul li{
+		padding: 0 20px 0 20px;
+	}
+
+	.banner-prin-wrapper{
+		padding: 20% 25px 0 25px;
+	}
+
+	.titulo-banner {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.titulo-banner a{
+		display: inline-block;
+	}
+
+	.mapa{
+		float: none;
+		width: 70%;
+		margin: 5% auto;
+	}
+
+	.key-wrapper{
+		max-width: 800px;
+
+	}
+
+	.cont-flot{
+		float: none;
+		width: 100%;
+	}
+
+	.intro-wrapper{
+		max-width: 800px;
+	}
+
+	.resalte{
+		float: none;
+		width: 100%;
+	}
+
+	.parrafoflotante{
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+
+	.cont-avatar, .cont-text-serv{
+		float: none;
+		width: 100%;
+	}
+
+	.text-serv{
+		padding: 10% 20% 10% 15%;
+		border-top: 1px solid #CCC;
+
+	}
+
+	.avatar img{
+		height: 0;
+	}
+
+	.fila-sep{
+		max-width: 300px;
+		margin: 5% auto 0 auto;
+	}
+
+	.cont-persona{
+		float: none;
+		width: 100%;
+		margin: 40% 0;
+	}
+
+	.imagen-reference-carrousel{
+		float: none;
+		width: 100%;
+	}
+
+	.cont-text-ref{
+		float: none;
+		width: 80%;
+	}
+
+	.modal-inner{
+			max-width: 80% !important;
+
+		}
+
+
+
+	}
+
+
+	@media (max-width: 800px){
+
+		.header-jp.shrink{
+			height: 140px;
+		}
+
+		.header-jp.shrink img{
+			padding: 1% 0 0 0;
+		}
+
+		h1{
+			font-size: 3em;
+		}
+
+		.header-jp img{
+			float: none;
+			padding: 2% 0 0 0;
+
+		}
+
+		.navegacion{
+			float: none;
+			margin: 0 auto;
+			max-width: 547px;
+
+		}
+
+		.header-jp ul{
+			padding: 5% 0 0 0;
+		}
+
+		.banner-prin-wrapper{
+			padding: 25% 25px 0 25px;
+		}
+
+		.key-wrapper{
+			max-width: 600px;
+		}
+
+		.cont-flot{
+			margin: 0;
+		}
+
+		.intro-wrapper{
+			max-width: 600px;
+		}
+
+
+
+	}
+
+
+	@media (max-width: 600px){
+
+		.banner-prin-wrapper{
+			padding: 30% 25px 0 25px
+		}
+
+		.cont-flot{
+			padding: 35px 0;
+		}
+
+		.key-wrapper{
+			max-width: 500px;
+		}
+
+		.intro-wrapper{
+			max-width: 500px;
+		}
+
+		.modal-inner{
+			max-width: 90% !important;
+		}
+
+
+	}
+
+	@media (max-width: 414px){
+		h1{
+			font-size: 2.5em;
+		}
+
+		.banner-prin-wrapper{
+			padding: 70% 25px 0 25px;
+		}
+
+		.navegacion{
+			max-width: 250px;
+			text-align: center;
+		}
+
+		.header-jp ul{
+			text-align: center !important;
+		}
+
+		.header-jp ul li {
+				text-align: center;
+				float: none;
+				padding:10px 0;
+				border-bottom: 1px solid #fff;
+
+		}
+
+		.header-jp ul li a{
+			text-align: center;
+		}
+
+		.header-jp{
+			height: 251px;
+		}
+
+			.header-jp.shrink{
+			height: 251px;
+		}
+
+		.mapa{
+			display: none;
+		}
+
+		.key-wrapper{
+			max-width: 300px;
+		}
+
+		.intro-wrapper{
+			max-width: 300px;
+		}
+
+		#tabla-ref{
+			display: none;
+		}
+
+		.ico-deal1, .ico-deal2, .ico-deal3, .ico-deal4{
+			padding: 25% 0 0 0;
+		}
+
+
+	}
+
+
+		@media (max-width: 320px){
+			.banner-prin-wrapper{
+				padding: 95% 25px 0 25px;
+			}
+
+			.key-wrapper{
+				max-width: 250px;
+			}
+
+			.intro-wrapper{
+				max-width: 250px;
+			}
+
+		}
